@@ -1,0 +1,8 @@
+{
+  "appUUID" : "71E4DE1A-8EB6-4999-9AAE-AE00A18957D9",
+  "partnerIdentifier" : "bouygues.apps",
+  "name" : "ordergateway",
+  "version" : "1.0.0",
+  "release" : "87.0.0.19-2",
+  "repositories" : [ ]
+}
