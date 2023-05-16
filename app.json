@@ -3,6 +3,6 @@
   "partnerIdentifier" : "bouygues.apps",
   "name" : "ordergateway",
   "version" : "1.0.0",
-  "release" : "87.0.0.19-2",
+  "release" : "87.0.0.22-1",
   "repositories" : [ ]
 }
