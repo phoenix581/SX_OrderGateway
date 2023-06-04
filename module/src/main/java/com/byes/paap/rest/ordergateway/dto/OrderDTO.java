@@ -12,12 +12,17 @@ public class OrderDTO
     private String requesterTelphoneDirect;
     private String requesterTelephoneMobile;
     private String requesterEmail;
+    private String requesterCode;
     private String orderDescription;
     private String orderComments;
     private int orderPropertySyscode;
+    private String orderPropertyCode;
     private int orderRoomSyscode;
+    private String orderRoomCode;
     private int orderAssetSyscode;
+    private String orderAssetCode;
     private int orderTradesmanSyscode;
+    private String orderTradesmanCode;
 
     public String getOriginSystem() {
         return originSystem;
@@ -145,6 +150,46 @@ public class OrderDTO
 
     public void setOrderTradesmanSyscode(int orderTradesmanSyscode) {
         this.orderTradesmanSyscode = orderTradesmanSyscode;
+    }
+
+    public String getOrderPropertyCode() {
+        return orderPropertyCode;
+    }
+
+    public void setOrderPropertyCode(String orderPropertyCode) {
+        this.orderPropertyCode = orderPropertyCode;
+    }
+
+    public String getOrderRoomCode() {
+        return orderRoomCode;
+    }
+
+    public void setOrderRoomCode(String orderRoomCode) {
+        this.orderRoomCode = orderRoomCode;
+    }
+
+    public String getOrderAssetCode() {
+        return orderAssetCode;
+    }
+
+    public void setOrderAssetCode(String orderAssetCode) {
+        this.orderAssetCode = orderAssetCode;
+    }
+
+    public String getOrderTradesmanCode() {
+        return orderTradesmanCode;
+    }
+
+    public void setOrderTradesmanCode(String orderTradesmanCode) {
+        this.orderTradesmanCode = orderTradesmanCode;
+    }
+
+    public String getRequesterCode() {
+        return requesterCode;
+    }
+
+    public void setRequesterCode(String requesterCode) {
+        this.requesterCode = requesterCode;
     }
 
 }
